@@ -1,110 +1,51 @@
+/* CSS Borders */
+
+
+/* 1. border-style 
+2. border-width
+3. border-color
+4. border-sides
+5. border shorthand
+6. rounded borders
+
+*/
+
+
+/* 1. border-style  */
+
 body {
-    background-color: whitesmoke;
+    background-color: #fff;
 }
 
-h1 {
-    color: grey;
-    font-size: 40px;
+
+/* .parentDiv {
+    height: 100%;
+    margin-left: 20px;
+    width: 40%;
+    background-color: teal;
+} */
+
+#myCard {
+    margin-top: 20px;
+    /* border: solid 15px #ffc322; */
+    border-radius: 10px;
+    width: 21%;
+    height: 60%;
+    background-color: #fff;
+    margin-left: 120px;
+    box-shadow: 0 5px 5px 0 #ccc;
+}
+
+img {
+    border-radius: 10px;
 }
 
 p {
-    color: black;
-    font-size: 30px;
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 20px;
 }
 
-.parentDiv {
-    padding: 30px;
-    margin-left: 100px;
-    width: 50%;
-    background-color: yellowgreen;
+h2 {
+    margin-left: 40px;
 }
-
-
-/* 4 types of adding a color to an element in CSS  */
-
-
-/* 1st step */
-
-
-/* property : colorName;  */
-
-
-/* #ourFirstDiv {
-    background-color: green;
-}
-
-#ourSecondDiv {
-
-    background-color: magenta;
-} */
-
-
-/* 2nd step :  HEX COLORS */
-
-
-/* property : #VALUES;  */
-
-
-/* #ourFirstDiv {
-    background-color: #ff3490;
-}
-
-#ourSecondDiv {
-    background-color: #ffc350;
-} */
-
-
-/* 3rd step :  RGB */
-
-
-/* property : rgb(red, green, blue)  */
-
-
-/* #ourFirstDiv {
-    background-color: rgb(100, 200, 050);
-}
-
-#ourSecondDiv {
-    background-color: rgb(000, 000, 155);
-} */
-
-
-/* 4th step :  HSL (hue, saturation, lightness) */
-
-
-/* property : hsl(20, 100%, 50%); */
-
-#ourFirstDiv {
-    background-color: hsl(120, 100%, 50%);
-}
-
-#ourSecondDiv {
-    background-color: hsl(50, 90%, 60%);
-}
-
-
-/* 4 ways of styling in CSS  */
-
-
-/* 1st way  */
-
-
-/* You write your css in .css file and connect that file with HTML FILE  */
-
-
-/* 2nd way  */
-
-
-/* You write your css in HTML FILE  inside the style tag */
-
-
-/* 3rd way  */
-
-
-/* You write your css inside your html tags/elements  */
-
-
-/* 4th way  */
-
-
-/* You write your css inside your scss file, name your values and use them in all your page  */
